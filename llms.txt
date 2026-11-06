@@ -1,0 +1,16 @@
+# transactional-outbox
+
+> Transactional outbox: enqueue events in the caller's database transaction and relay them at least once with leases, jittered backoff and dead-lettering Python package `trysac-transactional-outbox`, import name `transactional_outbox`, MIT licensed,
+> Python >= 3.10, no runtime dependencies.
+
+## Docs
+
+- [README](README.md): problem, install, usage example
+- [AGENTS](AGENTS.md): commands, folder map, conventions, limits
+- [Architecture](docs/ARCHITECTURE.md): shape of the package and its public API
+- [Testing](docs/TESTING.md): how to run and extend the tests
+
+## Optional
+
+- [Stack](docs/STACK.md): tools used and discarded
+- [Changelog](CHANGELOG.md): release history
