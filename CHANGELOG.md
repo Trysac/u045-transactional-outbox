@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Add `transactional_outbox`: transactional enqueue on the caller's connection, a lease-based `Relay` with full-jitter backoff and dead-lettering, an `OutboxStore` protocol with a `SqliteOutboxStore`, and `RecordingPublisher`/`FailingPublisher` test doubles.
 - Initial project structure from the factory utility template.
